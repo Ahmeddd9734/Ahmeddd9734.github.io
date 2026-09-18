@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GameMic Recorder — سياسة الخصوصية وشروط الاستخدام</title>
+<title>PlayClip — سياسة الخصوصية وشروط الاستخدام</title>
 <style>
   :root { --bg:#0b1f17; --card:#12291f; --fg:#e8f5ee; --muted:#9dbfae; --accent:#1faf6b; }
   * { box-sizing:border-box; }
@@ -32,13 +32,13 @@
 <div class="wrap">
 
 <header>
-  <h1>GameMic Recorder — سياسة الخصوصية وشروط الاستخدام</h1>
-  <p class="meta">آخر تحديث: ٢٥ أغسطس ٢٠٢٦ · التطبيق: <code>com.gamemic.recorder</code></p>
+  <h1>PlayClip — سياسة الخصوصية وشروط الاستخدام</h1>
+  <p class="meta">آخر تحديث: ١٧ سبتمبر ٢٠٢٦ · التطبيق: <code>com.gamemic.recorder</code> · الاسم الظاهر: PlayClip</p>
 </header>
 
 <div class="card">
   <span class="badge">لا نجمع أي بيانات</span>
-  <p>GameMic Recorder لا يجمع أي بيانات شخصية على الإطلاق. لا حسابات، ولا تتبّع، ولا إعلانات،
+  <p>PlayClip لا يجمع أي بيانات شخصية على الإطلاق. لا حسابات، ولا تتبّع، ولا إعلانات،
   ولا أدوات تحليل. التطبيق <strong>لا يطلب صلاحية الإنترنت أصلاً</strong>، وبالتالي لا يستطيع
   إرسال أي شيء إلى أي جهة حتى لو أراد.</p>
 </div>
@@ -51,7 +51,8 @@
 <h2>٢) صلاحية الميكروفون</h2>
 <p>تُستخدم لتسجيل صوتك مع صوت اللعبة في المقطع نفسه. التسجيل يبدأ فقط عند ضغطك على زر بدء
 التسجيل، ويتوقف فورًا عند إيقافه. يمكنك كتم صوتك في أي لحظة من الزر العائم أو من الإشعار،
-وعندها لا يُسجَّل صوتك إطلاقًا.</p>
+وعندها لا يُسجَّل صوتك إطلاقًا. النسخة الحالية تسجّل من ميكروفون جسم الهاتف/التابلت وتترك
+مايك السماعة للعبة، حتى يستمر زملاؤك في سماعك.</p>
 
 <h2>٣) تسجيل الشاشة</h2>
 <p>يستخدم التطبيق واجهة MediaProjection الرسمية في أندرويد، وهي تطلب موافقتك من النظام نفسه في
@@ -59,21 +60,9 @@
 
 <h2>٤) خدمة إمكانية الوصول</h2>
 <div class="card">
-  <p>يمنح نظام أندرويد الميكروفون لتطبيق واحد فقط في الوقت نفسه. عندما تكون داخل لعبة تستخدم
-  الدردشة الصوتية، تصبح اللعبة هي المالكة للميكروفون ولا يستطيع أي تطبيق آخر تسجيل صوتك.</p>
-  <p>خدمة إمكانية الوصول في هذا التطبيق تُستخدم <strong>لغرض واحد ووحيد</strong>: السماح
-  للتطبيق بتسجيل صوتك في اللحظة نفسها التي تستخدم فيها اللعبة الميكروفون، حتى يستمر زملاؤك في
-  سماعك أثناء التسجيل.</p>
-  <ul>
-    <li>لا تقرأ محتوى الشاشة (<code>canRetrieveWindowContent="false"</code>)</li>
-    <li>لا تراقب ضغطات الأزرار ولا ما تكتبه</li>
-    <li>لا تجمع أي بيانات ولا ترسل أي شيء إلى أي خادم</li>
-    <li>مقصورة على حزمة التطبيق نفسه فقط</li>
-    <li>اختيارية تمامًا — التطبيق يعمل بدونها لكن صوتك لن يُسجَّل أثناء وجودك داخل اللعبة</li>
-    <li>يمكنك إيقافها في أي وقت من: إعدادات النظام ← إمكانية الوصول</li>
-  </ul>
-  <p>لا يُصنَّف هذا التطبيق كأداة مساعدة لذوي الاحتياجات الخاصة، ولذلك تم ضبط
-  <code>isAccessibilityTool="false"</code> بشكل صريح.</p>
+  <p><strong>النسخة الحالية من PlayClip لا تستخدم خدمة إمكانية الوصول.</strong> لا نطلب تفعيلها،
+  ولا توجد في التطبيق خدمة AccessibilityService. التقاط الصوت يتم عبر واجهات أندرويد الرسمية
+  للميكروفون مع مسار منفصل لصوت اللعبة (MediaProjection / AudioPlaybackCapture).</p>
 </div>
 
 <h2>٥) الظهور فوق التطبيقات</h2>
@@ -93,12 +82,12 @@
 طلب متعلق بالبيانات، تواصل معنا عبر البريد المذكور في الأسفل.</p>
 
 <div class="en">
-  <h1>GameMic Recorder — Privacy Policy &amp; Terms of Use</h1>
-  <p class="meta">Last updated: 25 August 2026 · Package: <code>com.gamemic.recorder</code></p>
+  <h1>PlayClip — Privacy Policy &amp; Terms of Use</h1>
+  <p class="meta">Last updated: 17 September 2026 · Package: <code>com.gamemic.recorder</code> · Display name: PlayClip</p>
 
   <div class="card">
     <span class="badge">No data collected</span>
-    <p>GameMic Recorder collects no personal data whatsoever. No accounts, no tracking, no ads,
+    <p>PlayClip collects no personal data whatsoever. No accounts, no tracking, no ads,
     no analytics. The app <strong>does not request the INTERNET permission</strong>, so it is
     technically incapable of transmitting anything anywhere.</p>
   </div>
@@ -112,7 +101,8 @@
   <p>Used to record your voice alongside game audio in the same clip. Recording starts only when
   you press the record button and stops immediately when you stop it. You can mute your voice at
   any moment from the floating button or the notification, after which nothing from your
-  microphone is written to the file.</p>
+  microphone is written to the file. The current version records from the phone/tablet body mic
+  and leaves the headset mic to the game so teammates can still hear you.</p>
 
   <h2>3) Screen recording</h2>
   <p>Uses Android's official MediaProjection API, which requires system-level consent from you
@@ -120,22 +110,10 @@
 
   <h2>4) Accessibility service</h2>
   <div class="card">
-    <p>Android grants the microphone to a single app at a time. While you are inside a game that
-    uses voice chat, the game owns the microphone and no other app can capture your voice.</p>
-    <p>This app's accessibility service exists for <strong>one purpose only</strong>: to allow
-    the app to capture your voice at the same time the game is using the microphone, so your
-    teammates can still hear you while you record.</p>
-    <ul>
-      <li>Does not read screen content (<code>canRetrieveWindowContent="false"</code>)</li>
-      <li>Does not monitor keystrokes or anything you type</li>
-      <li>Collects no data and contacts no server</li>
-      <li>Scoped to this app's own package only</li>
-      <li>Entirely optional — the app works without it, but your voice will not be captured
-      while a game holds the microphone</li>
-      <li>Can be disabled at any time from System Settings → Accessibility</li>
-    </ul>
-    <p>This app is not an assistive tool for users with disabilities, and therefore declares
-    <code>isAccessibilityTool="false"</code> explicitly.</p>
+    <p><strong>The current version of PlayClip does not use an Accessibility service.</strong>
+    We do not ask you to enable one, and the app does not ship an AccessibilityService. Voice is
+    captured through Android’s official microphone APIs, with game audio on a separate
+    MediaProjection / AudioPlaybackCapture path.</p>
   </div>
 
   <h2>5) Display over other apps</h2>
@@ -158,7 +136,7 @@
 
 <footer>
   <p>البريد للتواصل / Contact: <a href="mailto:llomaman2010@gmail.com">llomaman2010@gmail.com</a></p>
-  <p>&copy; 2026 GameMic Recorder</p>
+  <p>&copy; 2026 PlayClip</p>
 </footer>
 
 </div>
